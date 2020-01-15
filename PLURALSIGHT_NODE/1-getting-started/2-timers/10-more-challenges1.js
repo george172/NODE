@@ -25,20 +25,23 @@ Challenge 2:
 
 let lastIntervalId, counter = 5;
 
-const wrapper = (delay,acc) => {
-  const greeting = delay => {
-    if (counter === 5) {
-      clearInterval(lastIntervalId);
-      lastIntervalId = setInterval(() => {
-        console.log('Hello World. ' + delay);
-        greeting(delay + 100);
-      }, delay);
-      counter = 0;
-    }
-    counter += 1;
-  };
-}
+
+  const wrapper = (delay) => {
+    const greeting = (delay,acc) => {
+      if (counter === 5) {
+        clearInterval(lastIntervalId);
+        if(delay === 600) return acc;
+        lastIntervalId = setInterval(() => {
+          console.log('Hello World. ' + delay);
+          greeting(delay + 100,acc);
+        }, delay);
+        counter = 0;
+      }
+      counter += 1;
+    };
+    return greeting(delay,'')
+  }
 
 
 
-greeting(100);
+wrapper(100);
