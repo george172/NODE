@@ -34,3 +34,6 @@ today();
 //node -h | less
 //node --v8 -options |grep "inprogress"
 
+// tail recursive
+//https://www.youtube.com/watch?v=-PX0BV9hGZY
+
