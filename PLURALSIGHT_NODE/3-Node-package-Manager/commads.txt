@@ -1,0 +1,30 @@
+1. npm => node package Manager
+2. npm -v => version of npm installed
+3. npm -g npm => update npm
+4. npm init => initailize npm
+5. npm i express , npm loadash => install express and loadash
+6. npm i express -D => installing in dev dependency
+7. npm help install => help on npm
+8. npm init --yes => inital complete
+9. npm ls || npm ls | less  => list all the install packages
+10. npm show requires versions || npm show loadash versions => will show all the version installed
+11. npm outdated => old modules
+12. npm i loadash@latest => to Install latest modules
+13.
+Semantic Version(sem Ver)
+4.2.0
+
+4=> major(breaking changes)
+2=> minor(Backword compatability)
+0=> Patch(Bug Fix)
+
+~(telda) => install lates patch version
+^(carrot) => Install latest minor or patch version
+14. 
+Package.json
+start:"node server.js"
+test:"jest"
+"check":"eslint server.js"
+15. npm help npm-script => 
+16. postest:"node -e 'console.log("\Done testing")";
+
