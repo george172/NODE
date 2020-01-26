@@ -1,0 +1,18 @@
+//handling Slow I/O
+//1. Synchronous
+//2. fork()
+//3. Threads(complicated on shared resourcs)(ngix is also single thread line node)
+//Event Loop
+
+//defination:Event loop
+// The entity that handles external events and converts them into callback invaations
+//A loop that picks events from the event queue and pushes their callaks to the call stack
+
+
+=> npm start => event => process.exit();
+
+//heap: where objects are stored in memory
+//heap and stack at run time engine
+//
+
+

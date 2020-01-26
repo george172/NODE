@@ -1,0 +1,7 @@
+=> A runtime Envirnoment for executing Javascript Code+modules
+=> Node is not a programming language
+=> Node is not a framework
+=> Node is a Non-blocking(async)
+=> What is a thread
+=> what s multiple thread
+=> 
